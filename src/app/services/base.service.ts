@@ -14,7 +14,8 @@ export class BaseService {
             'Content-Type': 'application/json',
             'Accept': `application/json, text/plain, */*`,
             'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET'
+            'Access-Control-Allow-Methods': 'GET',
+            'MS-ASPNETCORE-TOKEN': '3ec1c606-2fb6-4707-ad71-b62466b44fe5'
         });
 
         return { headers: headers };
